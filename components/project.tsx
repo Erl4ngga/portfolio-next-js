@@ -57,7 +57,7 @@ export default function ProjectCard() {
           removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="/images/card-example-2.jpeg"
+          src="/freshshop.png"
         />
       </Card>
       <Card
