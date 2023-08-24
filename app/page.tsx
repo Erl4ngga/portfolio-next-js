@@ -19,30 +19,6 @@ export default function Home() {
         <br />
         <h1 className={title()}>Developer</h1>
       </div>
-
-      <div className="flex gap-3 py-5">
-        <Link
-          isExternal
-          as={NextLink}
-          href={siteConfig.links.docs}
-          className={buttonStyles({
-            color: "primary",
-            radius: "full",
-            variant: "shadow",
-          })}
-        >
-          Documentation
-        </Link>
-        <Link
-          isExternal
-          as={NextLink}
-          className={buttonStyles({ variant: "bordered", radius: "full" })}
-          href={siteConfig.links.github}
-        >
-          <GithubIcon size={20} />
-          GitHub
-        </Link>
-      </div>
       <div className="py-6 md:px-3">
         <CardTwitter />
       </div>
