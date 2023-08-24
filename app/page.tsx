@@ -19,25 +19,18 @@ export default function Home() {
         <br />
         <h1 className={title()}>Developer</h1>
       </div>
+
       <div className="py-6 md:px-3">
         <CardTwitter />
       </div>
-      <div>
-        <h2
-          className={subtitle({ class: "mt-6 font-bold text-white text-2xl" })}
-        >
-          My Project
-        </h2>
+      <div className="my-8">
+        <h1 className={title()}>Project 💕&nbsp;</h1>
       </div>
       <div>
         <ProjectCard />
       </div>
-      <div>
-        <h2
-          className={subtitle({ class: "mt-6 font-bold text-white text-2xl" })}
-        >
-          certificate
-        </h2>
+      <div className="my-10">
+        <h1 className={title()}>Certificate &nbsp;</h1>
       </div>
       <div>
         <Certificate />
