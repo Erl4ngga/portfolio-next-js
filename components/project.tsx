@@ -8,6 +8,7 @@ import {
   Image,
   Button,
 } from "@nextui-org/react";
+import Link from "next/link";
 
 export default function ProjectCard() {
   return (
@@ -28,14 +29,14 @@ export default function ProjectCard() {
         <CardHeader className="absolute z-10 top-1 flex-col !items-start">
           <p className="text-tiny text-black uppercase font-bold">Php 8.1</p>
           <h4 className="text-black font-medium text-large">
-            Contribute to the planet
+            management product laravel-10
           </h4>
         </CardHeader>
         <Image
           removeWrapper
           alt="Card background"
           className="z-0 w-full h-full object-cover"
-          src="/images/card-example-3.jpeg"
+          src="/gro-mart.png"
         />
       </Card>
       <Card className="col-span-12 sm:col-span-4 h-[300px]">
@@ -90,7 +91,7 @@ export default function ProjectCard() {
           removeWrapper
           alt="Relaxing app background"
           className="z-0 w-full h-full object-cover"
-          src="/gro-mart.png"
+          src="/flowered.png"
         />
         <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
           <div className="flex flex-grow gap-2 items-center">
@@ -106,8 +107,8 @@ export default function ProjectCard() {
               </p>
             </div>
           </div>
-          <Button radius="full" size="sm">
-            Get App
+          <Button color="primary" variant="shadow" size="sm">
+            <Link href="https://gro-mart.top/">GitHub</Link>
           </Button>
         </CardFooter>
       </Card>
