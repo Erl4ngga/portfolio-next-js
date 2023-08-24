@@ -17,10 +17,8 @@ This is a template for creating applications using Next.js 13 (app directory) an
 
 ### Use the template with create-next-app
 
-To create a new project based on this template using `create-next-app`, run the following command:
-
 ```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
+git clone https://github.com/Erl4ngga/portfolio-next-js.git
 ```
 
 ### Install dependencies
