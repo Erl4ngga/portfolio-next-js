@@ -20,7 +20,7 @@ export default function CardTwitter() {
             isBordered
             radius="full"
             size="md"
-            src="/avatars/avatar-1.png"
+            src="https://pbs.twimg.com/profile_images/1687986093566943232/7WnE9xm0_400x400.jpg"
           />
           <div className="flex flex-col gap-1 items-start justify-center mr-2">
             <h4 className="text-small font-semibold leading-none text-default-600">
@@ -58,7 +58,7 @@ export default function CardTwitter() {
           <p className=" text-default-400 text-small">Following</p>
         </div>
         <div className="flex gap-1">
-          <p className="font-semibold text-default-400 text-small">14</p>
+          <p className="font-semibold text-default-400 text-small">12</p>
           <p className="text-default-400 text-small">Followers</p>
         </div>
       </CardFooter>
