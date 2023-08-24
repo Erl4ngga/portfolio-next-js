@@ -98,17 +98,15 @@ export default function ProjectCard() {
             <Image
               alt="Breathing app icon"
               className="rounded-full w-10 h-11 bg-black"
-              src="/images/breathing-app-icon.jpeg"
+              src="/favicon-16x16.png"
             />
             <div className="flex flex-col">
-              <p className="text-tiny text-white/60">Breathing App</p>
-              <p className="text-tiny text-white/60">
-                Get a good night's sleep.
-              </p>
+              <p className="text-tiny text-white/60">Web App</p>
+              <p className="text-tiny text-white/60">Get a Flower Product.</p>
             </div>
           </div>
           <Button color="primary" variant="shadow" size="sm">
-            <Link href="https://gro-mart.top/">GitHub</Link>
+            <Link href="https://gro-mart.top/">Get App</Link>
           </Button>
         </CardFooter>
       </Card>
