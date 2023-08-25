@@ -8,6 +8,7 @@ import {
   Avatar,
   Button,
 } from "@nextui-org/react";
+import { motion } from "framer-motion";
 
 export default function CardTwitter() {
   const [isFollowed, setIsFollowed] = React.useState(false);
@@ -31,20 +32,22 @@ export default function CardTwitter() {
             </h5>
           </div>
         </div>
-        <Button
-          className={
-            isFollowed
-              ? "bg-transparent text-foreground border-default-200 "
-              : ""
-          }
-          color="primary"
-          radius="full"
-          size="sm"
-          variant={isFollowed ? "bordered" : "solid"}
-          onPress={() => setIsFollowed(!isFollowed)}
-        >
-          {isFollowed ? "Unfollow" : "Follow"}
-        </Button>
+        <motion.nav whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          <Button
+            className={
+              isFollowed
+                ? "bg-transparent text-foreground border-default-200 "
+                : ""
+            }
+            color="primary"
+            radius="full"
+            size="sm"
+            variant={isFollowed ? "bordered" : "solid"}
+            onPress={() => setIsFollowed(!isFollowed)}
+          >
+            {isFollowed ? "Unfollow" : "Follow"}
+          </Button>
+        </motion.nav>
       </CardHeader>
       <CardBody className="px-3 py-0 text-small text-default-400">
         <p>Software Engineer / エルランガ</p>
